@@ -11,7 +11,13 @@ html,body {height: 100%;}
 .banner>ul>li{display: inline-block;}
 .banner>ul{width: 2400px; animation:slide 5s infinite ease-in alternate;}
 @keyframes slide{ from{margin-left: 0;} 50%{margin-left: -600px;} to{margin-left: -1200px;}}
-.product{width: 388px; border:1px #ddd solid;text-align: center;border-radius: 10px;}
+.product{
+	width: 388px; 
+	border:1px #ddd solid;
+	text-align: center;
+	border-radius: 10px;
+	float: left;
+}
 .product-image{text-align: center;}
 .product-image:hover{opacity: 0.9;}
 .product-info{padding: 5px;}
